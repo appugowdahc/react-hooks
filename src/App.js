@@ -1,9 +1,17 @@
 import './App.css';
-import TodoApp from './pages/TodoApp';
+// import TodoApp from './pages/TodoApp';
+import Blog from './pages/Blog';
+
+// import CounterRedux from './components/counterRedux';
+
 function App() {
   return (
     <div className="App">
-      <TodoApp/>
+      {/* useReducer hooks exercise */}
+      {/* <TodoApp/> */}
+      {/*Redux usecases*/}
+      {/* <CounterRedux/> */}
+      <Blog/>
     </div>
   );
 }
